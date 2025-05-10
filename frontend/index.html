@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>MzansiMadness • Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- 1. Top promo bar -->
+  <div class="topbar">
+    <div class="container">
+      <p>🔥 Free listings for local traders — Support your community!</p>
+      <button class="topbar__close" aria-label="Close">×</button>
+    </div>
+  </div>
+
+  <!-- 2. Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <img src="assets/logo-mzansi.png" alt="MzansiMadness logo" />
+        <span>MzansiMadness</span>
+      </a>
+
+      <button class="btn btn--location">📍 Your Location</button>
+
+      <div class="header__icons">
+        <a href="#" class="icon"><span>❤️</span><span class="badge">4</span></a>
+        <a href="register.html" class="icon"><span>👤</span><span class="badge">5</span></a>
+        <a href="cart.html" class="icon"><span>🛒</span><span class="badge">2</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. Main navigation -->
+  <nav class="main-nav">
+    <div class="container nav__inner">
+      <a href="#" class="btn btn--categories">All Categories</a>
+      <ul class="nav__list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Buy</a></li>
+        <li><a href="#">Sell</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+
+      <form class="search-form" action="#" method="get">
+        <input type="search" placeholder="Search for listings…" />
+        <button type="submit" aria-label="Search">🔍</button>
+      </form>
+
+    </div>
+  </nav>
+
+  <!-- 4. Hero slider -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <h1>Marketplace for Local Traders</h1>
+        <p>Buy, sell and trade goods within your community—support local business.</p>
+        <a href="#listings" class="btn btn--primary">Start Trading</a>
+      </div>
+      <div class="hero__image">
+        <img src="https://c8.alamy.com/comp/AMN4JC/black-zulu-women-street-vendors-in-brightly-colored-clothes-sell-produce-AMN4JC.jpg" alt="Local trade illustration" />
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Featured categories -->
+  <section class="featured-categories container">
+    <h2>Featured Categories</h2>
+    <div class="categories__grid">
+      <a href="#" class="category-card">
+        <img src="assets/home-goods.jpg" alt="Home Goods" />
+        <span>Home Goods</span>
+      </a>
+      <a href="#" class="category-card">
+        <img src="assets/electronics.jpg" alt="Electronics" />
+        <span>Electronics</span>
+      </a>
+      <a href="#" class="category-card">
+        <img src="assets/handicrafts.jpg" alt="Handicrafts" />
+        <span>Handicrafts</span>
+      </a>
+      <a href="#" class="category-card">
+        <img src="assets/fashion.jpg" alt="Fashion" />
+        <span>Fashion</span>
+      </a>
+      <a href="#" class="category-card">
+        <img src="assets/produce.jpg" alt="Fresh Produce" />
+        <span>Fresh Produce</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 6. Key benefits -->
+  <section class="benefits container">
+    <div class="benefit-card">
+      <h3>Secure Escrow</h3>
+      <p>Transactions protected so both buyers & sellers trade with confidence.</p>
+    </div>
+    <div class="benefit-card">
+      <h3>Best Local Prices</h3>
+      <p>Find competitive deals from traders right in your neighbourhood.</p>
+    </div>
+    <div class="benefit-card">
+      <h3>Wide Variety</h3>
+      <p>Browse thousands of listings across home goods, electronics & more.</p>
+    </div>
+    <div class="benefit-card">
+      <h3>Easy Returns</h3>
+      <p>Not satisfied? Return within 7 days and get a full refund—no questions asked.</p>
+    </div>
+  </section>
+
+    <!-- 7. Featured Listings -->
+    <section id="listings" class="products container">
+      <h2>Featured Listings</h2>
+      <div class="products__grid">
+        <!-- 8 product cards -->
+        <article class="product-card">
+          <div class="card-image">
+            <img src="assets/placeholder.png" alt="Fancy Product">
+            <div class="badge-sale">Sale</div>
+          </div>
+          <h3>Fancy Product</h3>
+          <p class="price">R40.00 – R80.00</p>
+          <button class="btn btn--secondary">View options</button>
+        </article>
+        <article class="product-card">
+          <div class="card-image">
+            <img src="assets/placeholder.png" alt="Special Item">
+            <div class="badge-sale">Sale</div>
+          </div>
+          <h3>Special Item</h3>
+          <div class="rating">★★★★★</div>
+          <p class="price">
+            <span class="old-price">R20.00</span>
+            <span class="new-price">R18.00</span>
+          </p>
+          <button class="btn btn--secondary">Add to cart</button>
+        </article>
+        <article class="product-card">
+          <div class="card-image">
+            <img src="assets/placeholder.png" alt="Sale Item">
+            <div class="badge-sale">Sale</div>
+          </div>
+          <h3>Sale Item</h3>
+          <p class="price">
+            <span class="old-price">R50.00</span>
+            <span class="new-price">R25.00</span>
+          </p>
+          <button class="btn btn--secondary">Add to cart</button>
+        </article>
+        <article class="product-card">
+          <div class="card-image">
+            <img src="assets/placeholder.png" alt="Popular Item">
+          </div>
+          <h3>Popular Item</h3>
+          <div class="rating">★★★★★</div>
+          <p class="price">R40.00</p>
+          <button class="btn btn--secondary">Add to cart</button>
+        </article>
+        <!-- Repeat four more cards, or copy above and adjust names/prices -->
+        <article class="product-card">
+          <div class="card-image">
+            <img src="assets/placeholder.png" alt="Unique Find">
+          </div>
+          <h3>Unique Find</h3>
+          <p class="price">R60.00</p>
+          <button class="btn btn--secondary">View details</button>
+        </article>
+        <article class="product-card">
+          <div class="card-image">
+            <img src="assets/placeholder.png" alt="Local Craft">
+          </div>
+          <h3>Local Craft</h3>
+          <div class="rating">★★★★☆</div>
+          <p class="price">R30.00</p>
+          <button class="btn btn--secondary">Add to cart</button>
+        </article>
+        <article class="product-card">
+          <div class="card-image">
+            <img src="assets/placeholder.png" alt="Handmade Item">
+          </div>
+          <h3>Handmade Item</h3>
+          <p class="price">R75.00</p>
+          <button class="btn btn--secondary">Add to cart</button>
+        </article>
+        <article class="product-card">
+          <div class="card-image">
+            <img src="assets/placeholder.png" alt="Vintage Piece">
+          </div>
+          <h3>Vintage Piece</h3>
+          <p class="price">R90.00</p>
+          <button class="btn btn--secondary">View options</button>
+        </article>
+      </div>
+    </section>
+    <!-- /7. Featured Listings -->  
+
+  <!-- 7. Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#">Home Goods</a></li>
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Handicrafts</a></li>
+          <li><a href="#">Fashion</a></li>
+          <li><a href="#">Fresh Produce</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About Us</h4>
+        <ul>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Help Center</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Safety Guidelines</a></li>
+          <li><a href="#">Marketplace Rules</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <address>
+          123 Market Street<br />
+          Soweto, ZA<br />
+          <a href="tel:+27118889999">+27 11 888 9999</a><br />
+          <a href="mailto:support@mzansimadness.co.za">support@mzansimadness.co.za</a>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 MzansiMadness. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

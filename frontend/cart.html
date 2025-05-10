@@ -1,0 +1,71 @@
+  <!-- Cart Page -->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Your Cart - Informal Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+  </head>
+  <body>
+    <h1 class="store-title">Informal Store</h1>
+    <div class="cart-page">
+      <!-- LEFT: Cart Items -->
+      <div class="cart-items-section">
+        <h2>Your Cart</h2>
+      
+        <div class="cart-table-header">
+          <span>Remove</span>
+          <span>Product</span>
+          <span>Name</span>
+          <span>Price</span>
+          <span>Quantity</span>
+          <span>Subtotal</span>
+        </div>
+        
+      
+        <!-- Cart item row -->
+        <div class="cart-row">
+          <div class="cart-remove">
+            <button class="remove-btn">&times;</button>
+          </div>
+          <div class="cart-product-image">
+            <img src="images/product1.jpg" alt="Product Image">
+          </div>
+          <div class="cart-product-name">Wireless Headphones</div>
+          <div class="cart-product-price">R500</div>
+          <div class="cart-product-qty">
+            <input type="number" min="1" value="1">
+          </div>
+          <div class="cart-product-subtotal">R500</div>
+        </div>
+      
+        <!-- Repeat .cart-row for more products -->
+      </div>    
+  
+      <!-- RIGHT: Cost Summary -->
+      <div class="cart-summary">
+        <h2>Order Summary</h2>
+        <div class="summary-line">
+          <span>Subtotal</span>
+          <span>R500</span>
+        </div>
+        <div class="summary-line">
+          <span>Shipping</span>
+          <span>R50</span>
+        </div>
+        <div class="summary-line">
+          <span>VAT (15%)</span>
+          <span>R75</span>
+        </div>
+        <div class="summary-total">
+          <strong>Total</strong>
+          <strong>R625</strong>
+        </div>
+        <button class="btn-primary">Proceed to Checkout</button>
+      </div>
+    </div>
+  </body>
+  </html>
+  

@@ -1,0 +1,86 @@
+/*——————————————————————————————————————
+  13. Registration Page Styles
+——————————————————————————————————————*/
+.register-page {
+  background: var(--color-light);
+  padding: var(--space-lg) 0;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-card {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: var(--space-lg);
+  width: 100%;
+  max-width: 600px;
+}
+
+.store-title {
+  text-align: center;
+  margin-bottom: var(--space-sm);
+  color: var(--color-dark);
+  font-size: 1.75rem;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: var(--space-xs);
+  color: var(--color-dark);
+}
+
+.welcome-message {
+  text-align: center;
+  margin-bottom: var(--space-md);
+  color: #555;
+  font-size: .95rem;
+}
+
+.register-card form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.register-card label {
+  font-weight: 600;
+  color: var(--color-dark);
+}
+
+.register-card input,
+.register-card select {
+  padding: var(--space-sm);
+  border: 1px solid #ccc;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color var(--transition);
+}
+
+.register-card input:focus,
+.register-card select:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.btn-primary {
+  margin-top: var(--space-sm);
+  padding: var(--space-md);
+  background: var(--color-secondary);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background var(--transition);
+}
+
+.btn-primary:hover {
+  background: rgba(0,78,150,0.8);
+}
